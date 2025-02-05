@@ -7,7 +7,7 @@ function scrollFunction(){
  let header = document.getElementById('header');
 
  if(document.documentElement.scrollTop > 70){
-  if(!header.classList.contains('navbar-fixded')){
+  if(!header.classList.contains('navbar-fixed')){
     header.classList.add('navbar-fixed');
     document.getElementsByTagName('body')[0].style.marginTop = '70px';
     header.style.display = 'none';
